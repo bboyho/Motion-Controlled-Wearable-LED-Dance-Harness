@@ -22,7 +22,7 @@ On the left or right side= LED off
 On stomach or back = LED fading */
 
 //Code Inspired By:
-//bildr Example, by Adam Meyer
+//bildr Example, by Adam Meyer and bildr.org Team
 //[ http://bildr.org/2011/04/sensing-orientation-with-the-adxl335-arduino/ ]
 //Arduino Fade Example, by David A. Mellis and Tom Igoe
 //[ http://www.arduino.cc/en/Tutorial/Fading ] 
