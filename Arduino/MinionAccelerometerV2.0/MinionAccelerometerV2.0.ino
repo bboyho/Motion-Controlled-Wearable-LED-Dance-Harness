@@ -1,5 +1,5 @@
-//MinionAccelerometer.ino
-//v1.0
+//MinionAccelerometerV2.0
+//v2.0
 //By: Ho Yun "Bobby" Chan (Worm Tank Crew, Block 1750)
 //April 12, 2016
 //Sparkfun Electronis Inc.
