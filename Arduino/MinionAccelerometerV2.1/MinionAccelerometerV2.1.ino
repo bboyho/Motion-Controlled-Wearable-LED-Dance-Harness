@@ -87,7 +87,7 @@ void loop() {
   //Note: Check description at top for results based on Accelerometer Mode's Features
   xRead = analogRead(xPin);
   Serial.print("Analog xPin (A0) = ");
-  Serial.println(xRead);
+  Serial.print(xRead);
   yRead = analogRead(yPin);
   Serial.print("     Analog yPin (A1) = ");
   Serial.print(yRead);
@@ -157,8 +157,6 @@ void calibrationADXL335() {
   //when calibrating. adjust the values accordingly. the values in the brackets are
   //the min/max values used for the condition statements
   if (calibration_M = 1) {
-    //default calibration_M = 0
-    //default calibration for quick test of the adapter board
     xUp = 540;      //xRead > xUp, ...~ [550]-580 at REST
     xDown = 488;    //xRead < xDown, it's ~437-[488] at REST
     yUp = 544;      //yRead > yUp, it's ~[544]-580 at REST
@@ -167,8 +165,6 @@ void calibrationADXL335() {
     zDown = 435;    //zRead < zDown, it's ~414-[435] at REST
   }
   else  if (calibration_M = 2) {
-    //default calibration_M = 0
-    //default calibration for quick test of the adapter board
     xUp = 570;      //xRead > xUp, ...~ [570]-607 at REST
     xDown = 436;    //xRead < xDown, it's ~405-[436] at REST
     yUp = 610;      //yRead > yUp, it's ~[610]-610 at REST
@@ -194,8 +190,6 @@ void calibrationADXL335() {
   }
   
   else if(calibration_M = 5) {
-    //default calibration_M = 0
-    //default calibration for quick test of the adapter board
     xUp = 590;      //xRead > xUp, ...~ [590]-607 at REST
     xDown = 437;    //xRead < xDown, it's ~408-[437] at REST
     yUp = 598;      //yRead > yUp, it's ~[598]-610 at REST
@@ -204,8 +198,6 @@ void calibrationADXL335() {
     zDown = 431;    //zRead < zDown, it's ~421-[431] at REST
   }
   else if(calibration_M = 6) {
-    //default calibration_M = 0
-    //default calibration for quick test of the adapter board
     xUp = 580;      //xRead > xUp, ...~ [580]-610 at REST
     xDown = 413;    //xRead < xDown, it's ~404-[413] at REST
     yUp = 601;      //yRead > yUp, it's ~[595]-605 at REST
@@ -214,8 +206,6 @@ void calibrationADXL335() {
     zDown = 430;    //zRead < zDown, it's ~418-[430] at REST
   }
   else if(calibration_M = 7) {
-    //default calibration_M = 0
-    //default calibration for quick test of the adapter board
     xUp = 585;      //xRead > xUp, ...~ [585]-607 at REST
     xDown = 429;    //xRead < xDown, it's ~407-[429] at REST
     yUp = 603;      //yRead > yUp, it's ~[603]-611 at REST
@@ -224,8 +214,6 @@ void calibrationADXL335() {
     zDown = 434;    //zRead < zDown, it's ~411-[434] at REST
   }
   else if(calibration_M = 8) {
-    //default calibration_M = 0
-    //default calibration for quick test of the adapter board
     xUp = 596;      //xRead > xUp, ...~ [596]-610 at REST
     xDown = 436;    //xRead < xDown, it's ~405-[436] at REST
     yUp = 601;      //yRead > yUp, it's ~[601]-615 at REST
@@ -234,8 +222,7 @@ void calibrationADXL335() {
     zDown = 440;    //zRead < zDown, it's ~410-[440] at REST
   }
   else {
-    //default calibration_M = 0
-    //default calibration for quick test of the adapter board
+       
     xUp = 585;      //xRead > xUp, ...~ [585]-607 at REST
     xDown = 436;    //xRead < xDown, it's ~405-[436] at REST
     yUp = 601;      //yRead > yUp, it's ~[601]-615 at REST
