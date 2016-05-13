@@ -32,9 +32,9 @@ On stomach or back = LED fading */
 //[ http://www.arduino.cc/en/Tutorial/Fading ]
 
 //set analog read pins
-const int xPin = 2;//x=A0
+const int xPin = 2;//x=A2
 const int yPin = 1;//y=A1
-const int zPin = 0;//z=A2
+const int zPin = 0;//z=A0
 
 //read the analog values from the accelerometer
 int xRead = analogRead(xPin);
@@ -42,7 +42,7 @@ int yRead = analogRead(yPin);
 int zRead = analogRead(zPin);
 
 //Calibration
-int calibration_M = 1; //this is used to calibrate the different accelerometers, change depending on what you are calibrating
+int calibration_M = 8; //this is used to calibrate the different accelerometers, change depending on what you are calibrating
 //default calibration values for quick test of the adapter board
 int xUp = 605;
 int xDown = 411;
@@ -116,7 +116,7 @@ void loop() {
 
   //Y-Y-Y-Y-Y-Y-Y | Read yAxis | Y-Y-Y-Y-Y-Y-Y
   //LEDs OFF
-   else if (yRead > yUp || yRead < yDown ) {
+  else if (yRead > yUp || yRead < yDown ) {
     //Note: When on left side (yAxis), it's ~607-612 at REST
     //Note: When on right side (yAxis), it's ~395-409 at REST
     //           ...Other values are outside of this boundary, therefore it will not affect this case
@@ -180,7 +180,7 @@ void calibrationADXL335() {
     zUp = 592;      //zRead > zUp, it's ~[592]-619 at REST
     zDown = 430;    //zRead < zDown, it's ~410-[430] at REST
   }
-  else if(calibration_M = 4) {
+  else if (calibration_M = 4) {
     xUp = 585;      //xRead > xUp, ...~ [585]-604 at REST
     xDown = 424;    //xRead < xDown, it's ~407-[424] at REST
     yUp = 598;      //yRead > yUp, it's ~[598]-607 at REST
@@ -188,8 +188,8 @@ void calibrationADXL335() {
     zUp = 615;      //zRead > zUp, it's ~[615]-622 at REST
     zDown = 441;    //zRead < zDown, it's ~421-[441] at REST
   }
-  
-  else if(calibration_M = 5) {
+
+  else if (calibration_M = 5) {
     xUp = 590;      //xRead > xUp, ...~ [590]-607 at REST
     xDown = 437;    //xRead < xDown, it's ~408-[437] at REST
     yUp = 598;      //yRead > yUp, it's ~[598]-610 at REST
@@ -197,7 +197,7 @@ void calibrationADXL335() {
     zUp = 600;      //zRead > zUp, it's ~[600]-620 at REST
     zDown = 431;    //zRead < zDown, it's ~421-[431] at REST
   }
-  else if(calibration_M = 6) {
+  else if (calibration_M = 6) {
     xUp = 580;      //xRead > xUp, ...~ [580]-610 at REST
     xDown = 413;    //xRead < xDown, it's ~404-[413] at REST
     yUp = 601;      //yRead > yUp, it's ~[595]-605 at REST
@@ -205,7 +205,7 @@ void calibrationADXL335() {
     zUp = 607;      //zRead > zUp, it's ~[607]-625 at REST
     zDown = 430;    //zRead < zDown, it's ~418-[430] at REST
   }
-  else if(calibration_M = 7) {
+  else if (calibration_M = 7) {
     xUp = 585;      //xRead > xUp, ...~ [585]-607 at REST
     xDown = 429;    //xRead < xDown, it's ~407-[429] at REST
     yUp = 603;      //yRead > yUp, it's ~[603]-611 at REST
@@ -213,16 +213,16 @@ void calibrationADXL335() {
     zUp = 605;      //zRead > zUp, it's ~[605]-618 at REST
     zDown = 434;    //zRead < zDown, it's ~411-[434] at REST
   }
-  else if(calibration_M = 8) {
-    xUp = 596;      //xRead > xUp, ...~ [596]-610 at REST
+  else if (calibration_M = 8) {
+    xUp = 585;      //xRead > xUp, ...~ [585]-67 at REST
     xDown = 436;    //xRead < xDown, it's ~405-[436] at REST
-    yUp = 601;      //yRead > yUp, it's ~[601]-615 at REST
-    yDown = 419;    //yRead < yDown, it's ~404-[419] at REST
-    zUp = 616;      //zRead > zUp, it's ~[616]-642 at REST
-    zDown = 440;    //zRead < zDown, it's ~410-[440] at REST
+    yUp = 593;      //yRead > yUp, it's ~[593]-615 at REST
+    yDown = 420;    //yRead < yDown, it's ~407-[420] at REST
+    zUp = 595;      //zRead > zUp, it's ~[595]-614 at REST
+    zDown = 440;    //zRead < zDown, it's ~411-[440] at REST
   }
   else {
-       
+
     xUp = 585;      //xRead > xUp, ...~ [585]-607 at REST
     xDown = 436;    //xRead < xDown, it's ~405-[436] at REST
     yUp = 601;      //yRead > yUp, it's ~[601]-615 at REST
