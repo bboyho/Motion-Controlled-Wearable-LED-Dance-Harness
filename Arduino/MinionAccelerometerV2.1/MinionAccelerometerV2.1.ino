@@ -1,7 +1,7 @@
 //MinionAccelerometer.ino
 //v2.1
 //By: Ho Yun "Bobby" Chan (Worm Tank Crew, Block 1750)
-//April 30, 2016
+//May 13, 2016
 //Sparkfun Electronis Inc.
 
 /*Description: This code will be used to control the 12V LED strips
