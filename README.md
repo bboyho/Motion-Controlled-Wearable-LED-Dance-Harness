@@ -3,23 +3,23 @@ Motion Controlled Wearable LED Dance Harness
 
 This code will be used to control the 12V LED strips attached to a dancer's custom harness. Each harness is controlled using an n-channel MOSFET an accelerometer, and an Arduino Pro Mini for a performance with Streetside Studio's bboys/bgirls.
 
-<table class="table table-hover table-striped table-bordered" align="center">
+<table class="table table-hover table-striped table-bordered">
   <tr align="center">
- <td><a href="https://www.instagram.com/p/BFav-Fbucyi/"><img src="https://instagram.fapa1-2.fna.fbcdn.net/vp/555d408708dad62e3a7e082a8db49cfc/5A9E9B02/t51.2885-15/e15/13183411_1598013397155977_1526210518_n.jpg" title="Bboys w/ Motion Controlled Wearable LED Dance Harness"></a></td>
+    <td><a href="https://www.instagram.com/p/BFav-Fbucyi/"><img src="https://instagram.fapa1-2.fna.fbcdn.net/vp/555d408708dad62e3a7e082a8db49cfc/5A9E9B02/t51.2885-15/e15/13183411_1598013397155977_1526210518_n.jpg" title="Bboys w/ Motion Controlled Wearable LED Dance Harness"></a></td>
   </tr>
   <tr align="center">
-    <td>[<a href="https://www.instagram.com/p/BFav-Fbucyi/">Instagram: bobbybrownrice Demo Video</a>]</td>
+    <td><a href="https://www.instagram.com/p/BFav-Fbucyi/">Instagram: bobbybrownrice Demo Video</a></td>
   </tr>
 </table>
 
 For more information about building the harness, check out the [prototype wearable LED dance harness](https://learn.sparkfun.com/tutorials/prototype-wearable-led-dance-harness). 
 
-<table class="table table-hover table-striped table-bordered" align="center">
+<table class="table table-hover table-striped table-bordered">
   <tr align="center">
    <td><a href="https://www.instagram.com/p/BExpFgNOczp/"><img src="https://instagram.fapa1-2.fna.fbcdn.net/vp/5e586ba313dfcb93f3ad930db055521c/5B491202/t51.2885-15/e35/12965030_235421853487723_151391308_n.jpg" title="Bboys Freezed"></a></td>
   </tr>
   <tr align="center">
-    <td>[<a href="https://www.instagram.com/p/BExpFgNOczp/">Instagram: bobbybrownrice Demo Image</a>]</td>
+    <td><a href="https://www.instagram.com/p/BExpFgNOczp/">Instagram: bobbybrownrice Demo Image</a></td>
   </tr>
 </table>
 
