@@ -12,7 +12,7 @@ This code will be used to control the 12V LED strips attached to a dancer's cust
   </tr>
 </table>
 
-For more information about building the harness, check out the [prototype wearable LED dance harness](https://learn.sparkfun.com/tutorials/prototype-wearable-led-dance-harness). 
+For more information about building the harness, check out the designs in the [prototype wearable LED dance harness](https://learn.sparkfun.com/tutorials/prototype-wearable-led-dance-harness). 
 
 <table class="table table-hover table-striped table-bordered">
   <tr align="center">
