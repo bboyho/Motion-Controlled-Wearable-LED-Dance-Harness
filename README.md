@@ -5,7 +5,7 @@ This code will be used to control the 12V LED strips attached to a dancer's cust
 
 <table class="table table-hover table-striped table-bordered">
   <tr align="center">
-    <td><a href="https://www.instagram.com/p/BFav-Fbucyi/"><img src="https://instagram.fapa1-2.fna.fbcdn.net/vp/555d408708dad62e3a7e082a8db49cfc/5A9E9B02/t51.2885-15/e15/13183411_1598013397155977_1526210518_n.jpg" title="Bboys w/ Motion Controlled Wearable LED Dance Harness"></a></td>
+    <td><a href="https://www.instagram.com/p/BFav-Fbucyi/"><img src="https://scontent-dfw5-1.cdninstagram.com/vp/25ede5c7dfc560f6bb8a450132f4cace/5AF3A3C2/t51.2885-15/e15/13183411_1598013397155977_1526210518_n.jpg" title="Bboys w/ Motion Controlled Wearable LED Dance Harness"></a></td>
   </tr>
   <tr align="center">
     <td><a href="https://www.instagram.com/p/BFav-Fbucyi/">Instagram: bobbybrownrice Demo Video</a></td>
