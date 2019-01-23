@@ -18,7 +18,8 @@ For more information about building the harness, check out the designs in the [p
 
 Repository Contents
 -------------------
-* **/Arduino** - Example code 
+* **/Documentation** - Images, Circuit, Fritzing Diagrams
+* **/Firmware/Arduino** - Example code 
   * _MinionAccelerometerV2.0_ - Test code for 1 dancer.
   * _MinionAccelerometerV2.1_ - Code calibrated for all 8 dancers.
 
