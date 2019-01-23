@@ -27,7 +27,7 @@ Documentation
 --------------
 * **[Project Tutorial](https://learn.sparkfun.com/tutorials/prototype-wearable-led-dance-harness)** - Hookup guide to make Mark II of the prototoype weable LED dance harness. The only difference is that Mark III uses an N-channel MOSFET, accelerometer, and an Arduino Pro Mini to control the colors.
 * **[Instagram: bobbybrownrice Demo Video](https://www.instagram.com/p/BExpFgNOczp/)** - Mark III in action.
-* **[Instagram: bobbybrownrice Demo Image](https://www.instagram.com/p/BExpFgNOczp/)** - Mark III image.
+* **[Instagram: bobbybrownrice Demo Image](https://www.instagram.com/p/BExpFgNOczp/)** - Mark III demo image.
 
 License Information
 -------------------
