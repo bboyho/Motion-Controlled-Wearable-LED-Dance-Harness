@@ -5,23 +5,16 @@ This code will be used to control the 12V LED strips attached to a dancer's cust
 
 <table class="table table-hover table-striped table-bordered">
   <tr align="center">
+    <td><a href="https://www.instagram.com/p/BExpFgNOczp/"><img src="https://raw.githubusercontent.com/bboyho/Motion-Controlled-Wearable-LED-Dance-Harness/master/Documentation/Bboys_Dance_LED_small.jpg" title="Bboys Freezed"></a></td>
     <td><a href="https://www.instagram.com/p/BFav-Fbucyi/"><img src="https://raw.githubusercontent.com/bboyho/Motion-Controlled-Wearable-LED-Dance-Harness/master/Documentation/Bboy_Dance_LED_Backstage_2016_small.jpg" title="Bboys w/ Motion Controlled Wearable LED Dance Harness"></a></td>
   </tr>
   <tr align="center">
+    <td><a href="https://www.instagram.com/p/BExpFgNOczp/">Instagram: bobbybrownrice Demo Image</a></td>
     <td><a href="https://www.instagram.com/p/BFav-Fbucyi/">Instagram: bobbybrownrice Demo Video</a></td>
   </tr>
 </table>
 
 For more information about building the harness, check out the designs in the [prototype wearable LED dance harness](https://learn.sparkfun.com/tutorials/prototype-wearable-led-dance-harness). 
-
-<table class="table table-hover table-striped table-bordered">
-  <tr align="center">
-   <td><a href="https://www.instagram.com/p/BExpFgNOczp/"><img src="https://raw.githubusercontent.com/bboyho/Motion-Controlled-Wearable-LED-Dance-Harness/master/Documentation/Bboys_Dance_LED_small.jpg" title="Bboys Freezed"></a></td>
-  </tr>
-  <tr align="center">
-    <td><a href="https://www.instagram.com/p/BExpFgNOczp/">Instagram: bobbybrownrice Demo Image</a></td>
-  </tr>
-</table>
 
 Repository Contents
 -------------------
