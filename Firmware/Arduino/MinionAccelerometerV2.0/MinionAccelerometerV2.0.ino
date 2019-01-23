@@ -28,9 +28,9 @@ On stomach or back = LED fading */
 //[ http://www.arduino.cc/en/Tutorial/Fading ] 
 
 //set analog read pins
-const int xPin = 0;//x=A0
+const int xPin = 2;//x=A2
 const int yPin = 1;//y=A1
-const int zPin = 2;//z=A2
+const int zPin = 0;//z=A0
 
 //read the analog values from the accelerometer
 int xRead = analogRead(xPin);
@@ -97,7 +97,7 @@ void loop() {
   }
   //yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
 
-  //Z-Z-Z-Z-Z-Z-Z | read xAxis | Z-Z-Z-Z-Z-Z-Z
+  //Z-Z-Z-Z-Z-Z-Z | read zAxis | Z-Z-Z-Z-Z-Z-Z
   //
   if (zRead > 610 || zRead < 425) {
     //fadeIn example from Arduino Fade Example Code
