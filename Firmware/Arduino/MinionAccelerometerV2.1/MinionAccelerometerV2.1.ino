@@ -156,7 +156,7 @@ void calibrationADXL335() {
   //read the values sent through the Arduino serial monitor to determine the values
   //when calibrating. adjust the values accordingly. the values in the brackets are
   //the min/max values used for the condition statements
-  if (calibration_M = 1) {
+  if (calibration_M == 1) {
     xUp = 540;      //xRead > xUp, ...~ [550]-580 at REST
     xDown = 488;    //xRead < xDown, it's ~437-[488] at REST
     yUp = 544;      //yRead > yUp, it's ~[544]-580 at REST
@@ -164,7 +164,7 @@ void calibrationADXL335() {
     zUp = 608;      //zRead > zUp, it's ~[608]-642 at REST
     zDown = 435;    //zRead < zDown, it's ~414-[435] at REST
   }
-  else  if (calibration_M = 2) {
+  else  if (calibration_M == 2) {
     xUp = 570;      //xRead > xUp, ...~ [570]-607 at REST
     xDown = 436;    //xRead < xDown, it's ~405-[436] at REST
     yUp = 610;      //yRead > yUp, it's ~[610]-610 at REST
@@ -172,7 +172,7 @@ void calibrationADXL335() {
     zUp = 613;      //zRead > zUp, it's ~[592]-619 at REST
     zDown = 440;    //zRead < zDown, it's ~410-[440] at REST
   }
-  else if (calibration_M = 3) {
+  else if (calibration_M == 3) {
     xUp = 590;      //xRead > xUp, ...~ [590]-607 at REST
     xDown = 436;    //xRead < xDown, it's ~404-[436] at REST
     yUp = 601;      //yRead > yUp, it's ~[601]-610 at REST
@@ -180,7 +180,7 @@ void calibrationADXL335() {
     zUp = 592;      //zRead > zUp, it's ~[592]-619 at REST
     zDown = 430;    //zRead < zDown, it's ~410-[430] at REST
   }
-  else if (calibration_M = 4) {
+  else if (calibration_M == 4) {
     xUp = 585;      //xRead > xUp, ...~ [585]-604 at REST
     xDown = 424;    //xRead < xDown, it's ~407-[424] at REST
     yUp = 598;      //yRead > yUp, it's ~[598]-607 at REST
@@ -189,7 +189,7 @@ void calibrationADXL335() {
     zDown = 441;    //zRead < zDown, it's ~421-[441] at REST
   }
 
-  else if (calibration_M = 5) {
+  else if (calibration_M == 5) {
     xUp = 590;      //xRead > xUp, ...~ [590]-607 at REST
     xDown = 437;    //xRead < xDown, it's ~408-[437] at REST
     yUp = 598;      //yRead > yUp, it's ~[598]-610 at REST
@@ -197,7 +197,7 @@ void calibrationADXL335() {
     zUp = 600;      //zRead > zUp, it's ~[600]-620 at REST
     zDown = 431;    //zRead < zDown, it's ~421-[431] at REST
   }
-  else if (calibration_M = 6) {
+  else if (calibration_M == 6) {
     xUp = 580;      //xRead > xUp, ...~ [580]-610 at REST
     xDown = 413;    //xRead < xDown, it's ~404-[413] at REST
     yUp = 601;      //yRead > yUp, it's ~[595]-605 at REST
@@ -205,7 +205,7 @@ void calibrationADXL335() {
     zUp = 607;      //zRead > zUp, it's ~[607]-625 at REST
     zDown = 430;    //zRead < zDown, it's ~418-[430] at REST
   }
-  else if (calibration_M = 7) {
+  else if (calibration_M == 7) {
     xUp = 585;      //xRead > xUp, ...~ [585]-607 at REST
     xDown = 429;    //xRead < xDown, it's ~407-[429] at REST
     yUp = 603;      //yRead > yUp, it's ~[603]-611 at REST
@@ -213,7 +213,7 @@ void calibrationADXL335() {
     zUp = 605;      //zRead > zUp, it's ~[605]-618 at REST
     zDown = 434;    //zRead < zDown, it's ~411-[434] at REST
   }
-  else if (calibration_M = 8) {
+  else if (calibration_M == 8) {
     xUp = 585;      //xRead > xUp, ...~ [585]-67 at REST
     xDown = 436;    //xRead < xDown, it's ~405-[436] at REST
     yUp = 593;      //yRead > yUp, it's ~[593]-615 at REST
