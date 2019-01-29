@@ -14,7 +14,7 @@ This code will be used to control the 12V LED strips attached to a dancer's cust
   </tr>
 </table>
 
-For more information about building the harness, check out the designs in the [prototype wearable LED dance harness](https://learn.sparkfun.com/tutorials/prototype-wearable-led-dance-harness). 
+For more information about building the harness, check out the tutorials linked below!
 
 Repository Contents
 -------------------
@@ -25,7 +25,9 @@ Repository Contents
 
 Documentation
 --------------
-* **[Project Tutorial](https://learn.sparkfun.com/tutorials/prototype-wearable-led-dance-harness)** - Hookup guide to make Mark II of the prototoype weable LED dance harness. The only difference is that Mark III uses an N-channel MOSFET, accelerometer, and an Arduino Pro Mini to control the colors.
+* Project Tutorial
+**[Prototype Wearable LED Dance Harness](https://learn.sparkfun.com/tutorials/prototype-wearable-led-dance-harness)** - Project guide to make Mark II of the prototype wearable LED dance harness.
+**[Motion Controlled Wearable LED Dance Harness](https://learn.sparkfun.com/tutorials/motion-controlled-wearable-led-dance-harness/all)** - Project guide to make Mark III of the wearable LED dance harness. The only difference is that Mark III uses an N-channel MOSFET, accelerometer, and an Arduino Pro Mini to control the colors.
 * **[Instagram: bobbybrownrice Demo Video](https://www.instagram.com/p/BExpFgNOczp/)** - Mark III in action.
 * **[Instagram: bobbybrownrice Demo Image](https://www.instagram.com/p/BExpFgNOczp/)** - Mark III demo image.
 
