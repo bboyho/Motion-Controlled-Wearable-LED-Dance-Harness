@@ -26,8 +26,8 @@ Repository Contents
 Documentation
 --------------
 * Project Tutorial
-**[Prototype Wearable LED Dance Harness](https://learn.sparkfun.com/tutorials/prototype-wearable-led-dance-harness)** - Project guide to make Mark II of the prototype wearable LED dance harness.
-**[Motion Controlled Wearable LED Dance Harness](https://learn.sparkfun.com/tutorials/motion-controlled-wearable-led-dance-harness/all)** - Project guide to make Mark III of the wearable LED dance harness. The only difference is that Mark III uses an N-channel MOSFET, accelerometer, and an Arduino Pro Mini to control the colors.
+  * **[Prototype Wearable LED Dance Harness](https://learn.sparkfun.com/tutorials/prototype-wearable-led-dance-harness)** - Project guide to make Mark II of the prototype wearable LED dance harness.
+  * **[Motion Controlled Wearable LED Dance Harness](https://learn.sparkfun.com/tutorials/motion-controlled-wearable-led-dance-harness/all)** - Project guide to make Mark III of the wearable LED dance harness. The only difference is that Mark III uses an N-channel MOSFET, accelerometer, and an Arduino Pro Mini to control the colors.
 * **[Instagram: bobbybrownrice Demo Video](https://www.instagram.com/p/BExpFgNOczp/)** - Mark III in action.
 * **[Instagram: bobbybrownrice Demo Image](https://www.instagram.com/p/BExpFgNOczp/)** - Mark III demo image.
 
