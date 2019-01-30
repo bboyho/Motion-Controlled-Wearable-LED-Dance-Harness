@@ -67,7 +67,9 @@ void loop() {
   zRead = analogRead(zPin);
   Serial.print("Analog zPin (A2) = ");
   Serial.println(zRead);
-
+  Serial.println("");
+  //delay(500); //slow down the print to read, adjust as necessary for testing
+  
   //-------Accelerometer Mode = 1 -------
   //X-X-X-X-X-X-X | READ xAxis | X-X-X-X-X-X-X
   //LEDs ON
